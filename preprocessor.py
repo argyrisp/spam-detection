@@ -25,7 +25,7 @@ def vectorize_text(filepath):
     # model = SentenceTransformer('all-MiniLM-L6-v2')
 
     f = open(filepath, "r")
-    fw = open("vectorized_dataset.csv", "w")
+    fw = open("dataset/vectorized_dataset.csv", "w")
     reader = csv.reader(f)
     writer = csv.writer(fw)
 
@@ -87,7 +87,7 @@ def print_prior_stats(X, y):
 
 
 def open_dataset(dataset_path):
-    f = open("vectorized_dataset.csv", "r")
+    f = open("dataset/vectorized_dataset.csv", "r")
     reader = csv.reader(f)
 
     skip_flag = True

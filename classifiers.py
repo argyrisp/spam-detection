@@ -36,7 +36,7 @@ def train_gnb(X, y):
     print("Complete!")
 
     # Save model checkpoint
-    filename = 'gNB.sav'
+    filename = 'models/gNB.sav'
     pickle.dump(gnb, open(filename, 'wb'))
     print("Saved model checkpoint as gNB.sav")
 
@@ -64,7 +64,7 @@ def train_rf(X, y):
     print("Complete!")
 
     # Save model checkpoint
-    filename = 'RF.sav'
+    filename = 'models/RF.sav'
     pickle.dump(rf, open(filename, 'wb'))
     print("Saved model checkpoint as ", filename)
 
@@ -90,7 +90,7 @@ def train_knn(X, y):
     print("Complete!")
 
     # Save model checkpoint
-    filename = 'kNN.sav'
+    filename = 'models/kNN.sav'
     pickle.dump(neigh, open(filename, 'wb'))
     print("Saved model checkpoint as ", filename)
 
