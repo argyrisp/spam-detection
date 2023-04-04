@@ -15,8 +15,8 @@ cd spam-detection
 ## Environment
 Import & enable environment:
 ```
-conda spam_env create -f environment.yml
-conda activate spam_env
+conda env create -f environment.yml
+conda activate sentence_transformer
 ```
 ## Run
 Simply run the script:
