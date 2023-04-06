@@ -9,7 +9,7 @@ Quickjump:
 ## Clone Repository
 Grab the current repository by:
 ```
-git@github.com:argyrisp/spam-detection.git
+git clone git@github.com:argyrisp/spam-detection.git
 cd spam-detection
 ```
 ## Environment
