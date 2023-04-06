@@ -30,6 +30,7 @@ TODO: add flags for preprocessor mode, training mode and prediction mode
 - The text is "cleaned" before it is fed to the transformer (no capital letters, ignore stopwords and special characters).
 - Dataset preprocessing takes a lot of time due to the Sentence Transformer, it is not recommended to preprocess, as the vectorized dataset is provided in this repository.
 - Preprocessing can be sped up if gpu torch is utilized.
+- Requires Python version 3.9.
 
 ## Results
 Dataset info:
